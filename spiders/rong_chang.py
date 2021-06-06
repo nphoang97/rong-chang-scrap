@@ -3,7 +3,7 @@ from scrapy.http.response.html import HtmlResponse
 
 class RongChangeSpider (scrapy.Spider):
     name = "rong_chang"
-
+    #abcdasdf
     def start_requests(self):
         audio_url_pattern = 'https://www.rong-chang.com/usalife/audio/t/usalife{pos}a.mp3'
         content_url_pattern = 'https://www.rong-chang.com/usalife/a/usalife0{pos}a.htm'
